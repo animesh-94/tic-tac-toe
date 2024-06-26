@@ -13,10 +13,10 @@ void inputFunction(){
     cout<<"  "<<matrix[0][0]<<"  |  "<<matrix[0][1]<<"  |  "<<matrix[0][2]<<endl;
     cout<<"_____|_____|_____"<<endl;
     cout<<"     |     |     "<<endl;
-    cout<<" "<<matrix[1][0]<<"  |  "<<matrix[1][1]<<" |  "<<matrix[1][2]<<endl;
+    cout<<" "<<matrix[1][0]<<"   |   "<<matrix[1][1]<<" |  "<<matrix[1][2]<<endl;
     cout<<"_____|_____|_____"<<endl;
     cout<<"     |     |     "<<endl;
-    cout<<" "<<matrix[2][0]<<"  |  "<<matrix[2][1]<<" |  "<<matrix[2][2]<<endl;
+    cout<<" "<<matrix[2][0]<<"   |   "<<matrix[2][1]<<" |  "<<matrix[2][2]<<endl;
     cout<<"     |     |     "<<endl;
 }
 
@@ -31,39 +31,39 @@ void codeLogic(){
         cin>>digit;
     }
 
-    if(digit == 00){
+    if(digit == 1){
         row = 0;
         col = 0;
     }
-    if(digit == 01){
+    if(digit == 2){
         row = 0;
         col = 1;
     }
-    if(digit == 02){
+    if(digit == 3){
         row = 0;
         col = 2;
     }
-    if(digit == 10){
+    if(digit == 4){
         row = 1;
         col = 0;
     }
-    if(digit == 11){
+    if(digit == 5){
         row = 1;
         col = 1;
     }
-    if(digit == 12){
+    if(digit == 6){
         row = 1;
         col = 2;
     }
-    if(digit == 20){
+    if(digit == 7){
         row = 2;
         col = 0;
     }
-    if(digit == 21){
+    if(digit == 8){
         row = 2;
         col = 1;
     }
-    if(digit == 22){
+    if(digit == 9){
         row = 2;
         col = 2;
     }
